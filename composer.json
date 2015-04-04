@@ -1,0 +1,21 @@
+{
+   "name": "nourdine/entitiez",
+   "type": "library",
+   "description": "Entities, sanitizers and validators",
+   "keywords": ["entity sanitizer validator"],
+   "license": "GNU GPL v3",
+   "authors": [
+      {
+         "name": "fabs aka (nourdine)",
+         "email": "admin@nourdine.net"
+      }
+   ],
+   "require": {
+      "php": ">=5.3"
+   },
+   "autoload": {
+      "psr-0": {
+         "entitiez": "src/"
+      }
+   }
+}
