@@ -39,7 +39,7 @@ class LocalizedPerson extends Person {
 
    private $address;
 
-   public function __construct($name = null, $age = null, $address) {
+   public function __construct($name, $age, $address) {
       parent::__construct($name, $age);
       $this->address = $address;
    }
