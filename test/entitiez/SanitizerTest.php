@@ -1,6 +1,8 @@
 <?php
 
-class SanitizerTest extends PHPUnit_Framework_TestCase {
+use PHPUnit\Framework\TestCase;
+
+class SanitizerTest extends TestCase {
 
    /**
     * @var PersonSanitizer

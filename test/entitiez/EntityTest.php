@@ -1,6 +1,8 @@
 <?php
 
-class EntityParcelTest extends PHPUnit_Framework_TestCase {
+use PHPUnit\Framework\TestCase;
+
+class EntityParcelTest extends TestCase {
 
    /**
     * @var entitiez\Entity 
